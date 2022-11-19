@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>I am Home!</h1>
-        <h1>{{ name }}</h1>
+        <h1>I am {{ name }} and I am {{ age }} years old</h1>
     </div>
 </template>
 
@@ -11,6 +11,7 @@ export default {
     data() {
         return {
             name: "Sai Win Oo",
+            age : 17,
         }
     },
 }
